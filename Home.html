@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<div id="mainDiv">
+  <div class="header"> <a> Jacinda Soto </a>
+    <div class= "header-right"> <a class= "active" href="Home.html">Projects</a>
+    <a href="Contact.html">Contact</a> </div>
+  </div>
+  <div class= "blurb" style= "border-bottom: dotted; border-bottom-color:palevioletred; border-width: 10px">
+    <h1 style="font-size: 110px"> Hello, I'm Jacinda!</h1>
+	  <div class="container2">
+    <p style="max-width: 700px; text-align: center"> I am a creative, ambitious, design enthusiast  born and raised in Queens, New York. I am currently pursuing a BFA in Design and a minor in Media Studies.</p>
+		  </div>
+    <a style="font-weight:bold; font-size: 40px; text-decoration: none;">Discover My Projects Below!<br></a>
+		
+<br>
+<br>
+<br>
+<br>
+
+ </div>
+  
+	<!-- start of projects --> 
+  <h1>To Helen</h1>
+  <div class="container"> <img src="images/Jacinda_Soto_To_Helen_Poster.png" width="400"/>
+    <div class="text">
+      <h2 style="max-width: 500px; text-align: center; position: absolute;padding-left: 20px;">"To Helen" is a short film that revitalizes Edgar Allan Poe's poem through vintage footage from the Lavelle Home Movie Collection found on the Internet Archive. The film merges fragments of the past, inviting viewers on a journey through time and memory. This film further captures the essence of longing and remembrance through a strangers memories. </h2>
+    </div>
+  </div>
+  <div class= "vidcontainer">
+    <video height="500" poster="images/ToHelen_Cover.png" controls>
+      <source src="videos/Jacinda_Soto_Midterm.mp4" type="video/mp4">
+    </video>
+  </div>
+
+
+  
+  <h1>Women in 50s - 70s Ads</h1>
+  <div class="container"> <img src="images/Jacinda_Soto_Women_Ads_Poster-02.png" width="400">
+    <div class="text">
+      <h2 style="max-width: 500px; position: absolute;padding-left: 20px;">"The Portrayal of Women: 1950s-1970s Advertisements" is a short film that critiques the depiction of women in television ads during this pivotal era. Through found footage on the Internet Archive, the film exposes gender stereotypes and limiting roles imposed on women by these advertisements. "The Portrayal of Women" serves as a reminder of the progress made in challenging gender norms, while also highlighting the ongoing need for accurate and empowering representations of women in media. </h2>
+    </div>
+  </div>
+	<div class= "vidcontainer">
+  <div style="text-align: center;">
+    <video height="500" poster="images/Archive_Vid_Cover.png" controls="controls" >
+      <source src="videos/Jacinda_Soto_Archive.mp4" type="video/mp4">
+    </video>
+	  
+  </div>
+  </div>
+	
+	
+  <h1 style="margin-bottom: 0">Informational Video</h1>
+  <div class="container2">
+    <h2 style="max-width: 900px; text-align: center; margin:0;">This informational video follows the traditional techniques for making Colombian hot chocolate with a traditional Molinillo Wooden Chocolate Stirrer and a surprising twist—mozzarella cheese! Through each stirring motion and creamy pour, this video celebrates the the simple pleasure of a warm, indulgent treat.</h2>
+  </div>
+  <div class= "vidcontainer">
+  <div style="text-align: center;">
+    <video height="500" controls>
+      <source src="videos/Jacinda_Soto-hw1.mp4" type="video/mp4">
+    </video>
+  </div>
+  </div>
+  <h1>Fun Gifs!</h1>
+  <div style="text-align: center; padding-bottom: 50px;"> <img src="images/Jacinda_Soto_GIF_1.gif" height="500" width="500"/> <img src="images/Jacinda_Soto_GIF_2.gif" height="500" width="500"/> </div>
+	
+  <!-- end of main div --> 
+</div>
+</body>
+</html>
+
+<!-- Start of CSS Style Code -->
+<style>
+body {
+	font-family: Helvetica, Arial, "sans-serif";
+	margin: 0;
+	background-color: #EBF5DF;
+}
+.active {
+	font-weight: bold;
+}
+.header {
+	overflow: hidden;
+	background-color: #BAD4AA;
+	padding: 20px 10px;
+	border-bottom: dotted;
+	border-width: 10px;
+	border-color: palevioletred;
+}
+.header a {
+	float: left;
+	text-align: center;
+	padding: 10px;
+	line-height: 25px;
+	border-radius: 4px;
+	font-size: 25px;
+	text-decoration: none;
+	color: black;
+}
+.header-right {
+	float: right;
+}
+h1 {
+	margin-bottom: 0;
+	font-size: 60px;
+	text-align: center;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+h2 {
+	text-align: center;
+	padding-top: 20px;
+}
+p {
+	font-size: 20px;
+	text-align: center;
+	
+}
+.container {
+	display: flex;
+	align-items: center;
+	padding-right: 400px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	justify-content: center;
+}
+	.blurb{
+		align-items:center;
+		text-align: center;
+		
+	}
+.container2 {
+	display: flex;
+	align-items: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	justify-content: center;
+}
+.vidcontainer{
+	text-align: center; 
+	border-bottom: dotted; 
+	border-bottom-color:palevioletred;
+	border-width: 10px;
+	padding-bottom: 50px;
+}
+.text {
+	margin-left: 20px;
+	margin-top: 50px;
+	padding-bottom: 500px;
+	padding-right: 100px;
+	max-width: 300px;
+	text-align: center;
+}
+#mainDiv {
+	width: 75%;
+	margin: auto;
+	border-style: dotted;
+	border-width: 10px;
+	border-color: palevioletred;
+}
+</style>
